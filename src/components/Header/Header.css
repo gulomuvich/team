@@ -42,4 +42,79 @@ a {
  text-decoration: none;
  background-color: transparent;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  padding: 18px 0;
+  background: #fff;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo h2 {
+  font-size: 28px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.logo span {
+  color: #ff3f3a;
+}
+
+.menu {
+  display: flex;
+  gap: 35px;
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #424551;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.menu a:hover,
+.menu .active {
+  color: #ff3f3a;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.right button {
+  width: 200px;
+  height: 48px;
+  border: none;
+  border-radius: 5px;
+  background: #ff3f3a;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.right button:hover {
+  background: #e8352f;
+}
+
+.login {
+  text-decoration: none;
+  color: #424551;
+  font-size: 15px;
+}
     

@@ -6,10 +6,13 @@ import Events from "./page/Event/Event";
 import Blog from "./page/Blog/Blog";
 import Contacts from "./page/Contacts/Contacts";
 import Login from "./page/Login/Login";
+import Header from "./components/Header/Header";
+import Footer from "./components/footer/Foter";
 
 function App() {
   return (
     <>
+    <Header/>
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/courses" element={<Courses />} />
@@ -18,6 +21,7 @@ function App() {
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/login" element={<Login />} />
       </Routes>
+      <Footer/>
     </>
   );
 }

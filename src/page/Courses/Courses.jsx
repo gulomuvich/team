@@ -1,11 +1,9 @@
-import "./Courses.css"
-import Header from "../../components/Header/Header";
-import Footer from "../../components/footer/Foter";
- function Courses() {
+import "./Courses.css";
+function Courses() {
   return (
     <div>
-        salom
+      <h1>Course Page</h1>
     </div>
-  )
+  );
 }
 export default Courses;

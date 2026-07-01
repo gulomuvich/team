@@ -1,0 +1,24 @@
+.courseHeroSec {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px 0;
+}
+
+.courseHeroSec>h1,
+.courseHeroSec>h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.courseHeroSec>h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #FF3F3A;
+}
+
+.courseHeroSec>h2 {
+    font-size: 55px;
+    color: #1E212C;
+    font-weight: 700;
+}

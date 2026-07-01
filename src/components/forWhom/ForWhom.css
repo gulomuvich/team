@@ -1,0 +1,29 @@
+.ForWhom{
+    margin-top: 85px !important;
+}
+
+.forWhomList{
+    display: flex; 
+    align-items: flex-start; 
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+}
+.forWhomList>li:first-child>h1{
+    font-size: 18px;
+    font-weight: 600;
+}
+.forWhomList>li:first-child>h2{
+    font-size: 45px;
+    width: 495px;
+}
+.forWhomList>li:last-child{
+    width: 564px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-direction: column;
+    color: #424551;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

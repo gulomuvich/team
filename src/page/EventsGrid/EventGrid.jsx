@@ -13,7 +13,7 @@ function EventGrid({ events }) {
           <li className="event-card_list">
             <h3>{item.date}</h3>
             <span>{item.time}</span>
-            <p>{item.title}</p>
+            <p>{item.description}</p>
             <span>{item.category}</span>
             <br />
             <Link to={"/event"} className="link">View more</Link>

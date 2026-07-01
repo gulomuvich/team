@@ -73,6 +73,7 @@ a {
   vertical-align: middle;
 }
 .home-btn {
+
   width: 148px;
   height: 52px;
   opacity: 1;
@@ -85,6 +86,7 @@ a {
   border: 1px solid rgba(255, 63, 58, 1);
 }
 .explore-btn {
+  padding: 5px;
   width: 200px;
   height: 52px;
   opacity: 1;
@@ -208,7 +210,6 @@ a {
   letter-spacing: 0%;
 }
 .market-list {
-  margin-left: 40px;
   width: 600px;
   height: 214px;
   border-radius: 4px;
@@ -244,4 +245,14 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
+}
+.Home-play{
+  display: flex;
+  align-items: center;
+
+}
+.Enjoy-left{
+  display: flex;
+  align-items: center;
+  gap: 100px;
 }

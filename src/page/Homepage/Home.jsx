@@ -9,10 +9,38 @@ import Prod from "../../assets/img/praduk.png";
 import Brand from "../../assets/img/Brand.png";
 import Marketing from "../../assets/img/marketing.png";
 import Gropus from "../../assets/img/Grspis.png";
-
+import Only from "../../assets/img/illustration (1).png"
 function Home() {
+
+  const events = [
+  {
+    day: "05",
+    month: "August",
+    time: "11:00 – 14:00",
+    title:
+      "Formation of the organizational structure of the company in the face of uncertainty.",
+    type: "Online master-class",
+  },
+  {
+    day: "24",
+    month: "July",
+    time: "11:00 – 12:30",
+    title:
+      "Building a customer service department. Best Practices.",
+    type: "Online lecture",
+    active: true,
+  },
+  {
+    day: "16",
+    month: "July",
+    time: "10:00 – 13:00",
+    title:
+      "How to apply methods of speculative design in practice. Worldbuilding prototyping.",
+    type: "Online workshop",
+  },
+];
   return (
-    <section className="section">
+    <section className="section-left">
    <div className="container">
        <div className="Enjoy-left">
         <div>
@@ -187,6 +215,76 @@ function Home() {
         </li>
       </ul>
           </div>
+          <div className="our-div"><h6>Our benefits</h6><h2>That’s how we do it</h2></div>
+            <div className="container">
+              
+                <ul className="comanety-left">
+              <li className="comenty-list">Experienced Tutors </li>
+              <li className="comenty-list">
+                Feedback & Support
+              </li>
+              <li className="comenty-list">24/7 Online Library</li>
+              <li className="comenty-list">Community</li>
+            </ul>
+              </div>
+              <div className="container"> 
+                <div className="Only-left">
+                  <div >
+                    <h2>Only practicing tutors</h2>
+                    <p className="urna-text">Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</p>
+                  </div>
+                  <div>
+                    <img src={Only} alt="" />
+                  </div>
+                </div>
+              </div>
+              <div className="events">
+                 <div className="events-container">
+        <span className="events-subtitle">OUR EVENTS</span>
+
+        <h2 className="events-title">
+          Lectures & Workshops
+        </h2>
+
+        <div className="events-list">
+          {events.map((item, index) => (
+            <div className="event-card" key={index}>
+              <div className="event-date">
+                <h2>{item.day}</h2>
+
+                <div>
+                  <h4>{item.month}</h4>
+                  <p>{item.time}</p>
+                </div>
+              </div>
+
+              <div className="event-info">
+                <h3>{item.title}</h3>
+                <span>{item.type}</span>
+              </div>
+
+              <button
+                className={
+                  item.active
+                    ? "event-btn active"
+                    : "event-btn"
+                }
+              >
+                View more
+              </button>
+            </div>
+          ))}
+        </div>
+
+        <div className="events-bottom">
+          <h3>Do you want more?</h3>
+
+          <button className="events-all-btn">
+            Explore all events
+          </button>
+        </div>
+      </div>
+              </div>
     </section>
   )
 }

@@ -14,7 +14,8 @@ function Header() {
 
         <nav>
           <ul className="menu">
-            <li><Link to="/">About Us</Link></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About Us</Link></li>
             <li><Link to="/courses">Courses</Link></li>
             <li><Link to="/events">Events</Link></li>
             <li><Link to="/blog">Blog</Link></li>

@@ -238,7 +238,7 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="events">
+              <div className="eventsm">
                  <div className="events-container">
         <span className="events-subtitle">OUR EVENTS</span>
 

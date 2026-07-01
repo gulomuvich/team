@@ -1,8 +1,14 @@
-import React from 'react'
+import "./courseHero.css";
 
-export default function courseHero() {
+function CourseHero() {
   return (
-    <section className=' container'>
+    <section className="courseHeroSec">
+      <h1>Course</h1>
+      <h2>
+        User Experience. Principles of Human-Centered <br />
+        Design
+      </h2>
     </section>
-  )
+  );
 }
+export default CourseHero;

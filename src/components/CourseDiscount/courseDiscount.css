@@ -1,0 +1,55 @@
+.CourseDisCount {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.CourseDisCount {
+    display: flex;
+    width: 100%;
+    margin-top: 85px !important;
+    flex-direction: column;
+    padding: 30px 55px !important;
+    border-radius: 5px;
+    background: linear-gradient(55deg, #ff403a6a 45%, #f75e054d 75%);
+}
+
+.DiscountTop {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.TimerContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.CourseDisInputs {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.CourseDisInputs>label {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}.CourseDisInputs>label>input{
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    border: solid grey 1.2px;
+    border-radius: 5px;
+}
+.JointheButton{
+    height: 48px;
+    width: 160px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    background:  linear-gradient(24deg, #F75E05, #FF3F3A);
+    border: none;
+}

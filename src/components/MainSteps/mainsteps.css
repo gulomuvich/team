@@ -1,0 +1,59 @@
+.MainStepsSec{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.MainStepsSec>h1{
+    color: #FF3F3A;
+    font-size: 22px;
+}
+.MainStepsSec>h2{
+    color: #1E212C;
+    font-size: 48px;
+    margin-bottom: 55px;
+}
+.stepsList{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.stepsList>li{
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.stepsList>li>h3{
+    color: #D7DADD;
+    font-size: 46px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.stepsList>li>h4{
+    font-weight: 700;
+    font-size: 19px;
+    color: #1E212C;
+}
+.spepListNumber>h3{
+    color: #D7DADD;
+    font-size: 46px;
+    color: #f4313b;
+    background-color: #ff94907a;
+    display: flex;
+    border-radius: 50%;
+    padding: 10px 15px;
+    align-items: center;
+}
+.spepListNumber{
+    background-color: #ff403a3b;
+    width: fit-content;
+    padding: 15px 18px;
+    text-align: center;
+    border-radius: 50%;
+}
+.stepsList>li>p{
+    width: 285px;
+}

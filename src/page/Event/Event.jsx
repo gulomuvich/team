@@ -6,7 +6,8 @@ import SpeakerImg from "../../assets/img/speaker-image.png";
 import SpeakweLogo1 from "../../assets/img/speaker-logo1.png";
 import SpeakweLogo2 from "../../assets/img/speaker-logo2.png";
 import SpeakweLogo3 from "../../assets/img/speaker-logo3.png";
-import NewsLetterImg from "../../assets/img/newsletter.png"
+import NewsLetterImg from "../../assets/img/newsletter.png";
+import IllusionImg from "../../assets/img/illusion.png"
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Event() {
@@ -140,6 +141,51 @@ function Event() {
               I agree to receive communications from Createx Online School
             </span>
           </label>
+        </div>
+      </div>
+      <div className="event-registration-wrapper">
+        <div className="event-registration-content">
+          <form className="event-registration-form">
+            <span className="event-registration-subtitle">
+              DON'T MISS THE EVENT
+            </span>
+
+            <h2 className="event-registration-title">Leave a request</h2>
+
+            <div className="event-registration-field">
+              <label htmlFor="fullName">Full Name</label>
+              <input type="text" id="fullName" placeholder="Your full name" />
+            </div>
+
+            <div className="event-registration-field">
+              <label htmlFor="emailAddress">Email</label>
+              <input
+                type="email"
+                id="emailAddress"
+                placeholder="Your working email"
+              />
+            </div>
+
+            <div className="event-registration-field">
+              <label htmlFor="phoneNumber">Phone</label>
+              <input
+                type="tel"
+                id="phoneNumber"
+                placeholder="Your phone number"
+              />
+            </div>
+
+            <button className="event-registration-btn">Join the event</button>
+
+            <p className="event-registration-note">
+              * You will receive a link to the online lecture in an email after
+              registration.
+            </p>
+          </form>
+
+          <div className="event-registration-illustration">
+            <img src={IllusionImg} alt="Leave Request" />
+          </div>
         </div>
       </div>
     </section>

@@ -29,6 +29,8 @@
 }
 
 .event-card_list {
+  max-width: 390px;
+  min-height: 350px;
   background: #fff;
   border: 1px solid #e5e8ed;
   border-radius: 4px;

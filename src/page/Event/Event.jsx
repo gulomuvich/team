@@ -7,7 +7,7 @@ import SpeakweLogo1 from "../../assets/img/speaker-logo1.png";
 import SpeakweLogo2 from "../../assets/img/speaker-logo2.png";
 import SpeakweLogo3 from "../../assets/img/speaker-logo3.png";
 import NewsLetterImg from "../../assets/img/newsletter.png";
-import IllusionImg from "../../assets/img/illusion.png"
+import IllusionImg from "../../assets/img/illusion.png";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Event() {
@@ -186,6 +186,61 @@ function Event() {
           <div className="event-registration-illustration">
             <img src={IllusionImg} alt="Leave Request" />
           </div>
+        </div>
+      </div>
+      <div className="event-related">
+        <div className="event-related_container">
+          <h6 className="event-related_subtitle">CHECK OTHER ONLINE EVENTS</h6>
+
+          <div className="event-related_header">
+            <h1>You may be interested in</h1>
+
+            <div className="event-related_arrows">
+              <button>&larr;</button>
+              <button>&rarr;</button>
+            </div>
+          </div>
+        </div>
+        <ul className="event-cards">
+          <li className="event-card_list">
+            <h3>05 Aug </h3>
+            <span>11:00 – 14:00</span>
+            <p>
+              Formation of the organizational structure of the company in the
+              face of uncertainty.
+            </p>
+            <span>Onine master-class</span>
+            <br />
+            <Link to={"/event"} className="link">
+              View more
+            </Link>
+          </li>
+          <li className="event-card_list">
+            <h3>24 Jul</h3>
+            <span>11:00 – 12:30</span>
+            <p>Building a customer service department. Best Practices.</p>
+            <span>Onine lecture</span>
+            <br />
+            <Link to={"/event"} className="link">
+              View more
+            </Link>
+          </li>
+          <li className="event-card_list">
+            <h3>10 Jul</h3>
+            <span>9:00 – 14:00</span>
+            <p>
+              Find and evaluate: search and assessment tools for candidates.
+            </p>
+            <span>Onine workshop</span>
+            <br />
+            <Link to={"/event"} className="link">
+              View more
+            </Link>
+          </li>
+        </ul>
+        <div className="explore-all_events">
+          <h3>Do you want more?</h3>
+          <Link to={"/events"} className="explore-link">Explore all events</Link>
         </div>
       </div>
     </section>

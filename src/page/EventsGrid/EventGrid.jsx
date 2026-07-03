@@ -8,7 +8,7 @@ function EventGrid({ events }) {
       <br />
       <h1>Lectures, workshops & master-classes</h1>
 
-      <ul className="event-card">
+      <ul className="event-cards">
         {events.map((item) => (
           <li className="event-card_list">
             <h3>{item.date}</h3>

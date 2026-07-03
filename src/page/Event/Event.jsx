@@ -17,8 +17,8 @@ function Event() {
         <h6>Online lecture</h6>
         <br />
         <h1>
-          Formation of the organizational structure of the company in the face
-          of uncertainty
+          Formation of the organizational structure of the company in the face
+          of uncertainty
         </h1>
       </div>
       <div className="event-sidebar">

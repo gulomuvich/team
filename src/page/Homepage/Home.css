@@ -94,7 +94,7 @@ a {
   border-radius: 4px;
   padding-right: 40px;
   padding-left: 40px;
-  background: linear-gradient(100deg, rgba(255, 63, 58, 1));
+  background: rgba(255, 63, 58, 1);
   border: none;
   color: #ffffff;
 }

@@ -1,0 +1,107 @@
+.ourEvents {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ourEvents>h1 {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.ourEvents>h2 {
+    margin-bottom: 35px;
+    font-size: 45px;
+}
+.eventActions{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.eventActions>label{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+#eventECategory, #eventSortBy{
+   width: 120px;
+   height: 30px;
+   outline: none;
+   border-radius: 5px;
+   color: grey;
+   /* pointer-events: none; */
+   background: none;
+}
+#eventShow{
+    outline: none;
+    padding-left: 10px;
+    width: 50px;
+    height: 30px;
+}
+.iSearchIcon{
+    position: absolute;
+    right: 10px;
+}
+.searchInput{
+    padding-left: 15px;
+    height: 30px;
+    outline: none;
+}
+.OurEventList{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 80px auto;
+    gap: 20px;
+}
+.OurEventList>li:hover{
+    box-shadow: 0 5px 12px 1px rgba(128, 128, 128, 0.514);
+    transform: translateY(-10px);
+}
+.OurEventList>li{
+    display: flex;
+    padding: 10px 20px;
+    transition: 0.30s;
+    border-radius: 9px;
+    border: solid rgba(128, 128, 128, 0.461) 1px;
+    align-items: center;
+    justify-content: space-between;
+}
+.ourEventChild>h3{
+    font-size: 65px;
+    color: #FF3F3A;
+}
+.ourEventChild{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.OurEventList>li>div>h5{
+    font-size: 20px;
+    width: 750px;
+}
+.OurEventList>li>div{
+    flex-grow: 1;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    text-align: left;
+}
+.OurEventList>li>button{
+    color: #FF3F3A;
+    padding: 10px 20px;
+    font-size: 15px;
+    background: transparent;
+    border: #FF3F3A solid 1px;
+    border-radius: 5px;
+    transition: 0.30s;
+}
+.OurEventList>li>button:hover{
+    background: linear-gradient(#FF3F3A, #F75E05);
+    color: white;
+    box-shadow: #F75E05 0 0 10px 1px;
+    cursor: pointer;
+}

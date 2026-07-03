@@ -1,6 +1,6 @@
 import EventBottom from "../../components/eventBottom/EventBottom";
 import OurEvents from "../../components/OurEvents/OurEvents";
-import "./Event.css"
+import "./EventList.css"
 function Event() {
   return (
     <main>

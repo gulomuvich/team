@@ -11,6 +11,7 @@ import Login from "./page/Login/Login";
 import Header from "./components/Header/Header";
 import Footer from "./components/footer/Foter";
 import EventGrid from "./page/EventsGrid/EventGrid";
+import Events from "./page/Event/Event";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/event" element={<Events />} />
+        <Route path="/events" element={<EventGrid events={events}/>} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/login" element={<Login />} />

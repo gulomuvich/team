@@ -10,6 +10,7 @@ import Brand from "../../assets/img/Brand.png";
 import Marketing from "../../assets/img/marketing.png";
 import Gropus from "../../assets/img/Grspis.png";
 import Only from "../../assets/img/illustration (1).png";
+import Team from "../../components/Team/Team";
 function Home() {
   const events = [
     {
@@ -282,6 +283,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Team />
     </section>
   );
 }

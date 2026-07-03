@@ -1,0 +1,58 @@
+.eventBottom{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    background: linear-gradient(50deg, #ff403a86, #f75e055c);
+    flex-direction: column;
+}
+.eventBottom>h1{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #1E212C;
+}
+.eventBottom>h2{
+    color: #1E212C;
+    margin-top: 8px;
+    font-size: 46px;
+    text-align: center;
+    width: 750px;
+}
+.EmailSend{
+    margin-top: 25px;
+    display: flex;
+    gap: 18px;
+}
+.EmailSend>input{
+    height: 40px;
+    border: none;
+    outline: none;
+    width: 350px;
+    border-radius: 5px;
+    padding: 0 8px;
+}
+.EmailSend>button{
+    width: 120px;
+    color: white;
+    border-radius: 5px;
+    background: linear-gradient(#F75E05, #FF3F3A);
+    border: none;
+    font-size: 17px;
+}
+.forPositionImg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 310px;
+}
+.forPositionImgTwo{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 310px;
+}

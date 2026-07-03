@@ -1,7 +1,12 @@
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import "./aboutcourse.css"
+import { useNavigate } from "react-router-dom";
 
 export default function AboutCourse() {
+  const navigate = useNavigate("")
+  const navigateEventTwo = () => {
+    navigate("/eventsTwo")
+  }
   return (
     <section style={{marginTop: "102px", marginBottom: "152px"}} className=" container">
       <ul className="AboutCourseList">
@@ -60,7 +65,7 @@ export default function AboutCourse() {
             Price 
             <h2>$120 per month</h2><p>Nulla sem adipiscing adipiscing felis fringilla. Adipiscing mauris quam ac elit tristique dis.</p>
           </h3>
-          <button>Join the course</button>
+          <button onClick={navigateEventTwo}>Join the course</button>
         </li>
       </ul>
     </section>

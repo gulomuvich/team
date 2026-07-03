@@ -17,19 +17,21 @@
 }
 
 .testimonialCont {
-    width: 1155px;
-    box-shadow: 0 0 55px -25px;
-    border-radius: 8px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
     align-items: flex-start;
-    gap: 25px;
     background-color: white;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 25px;
+    padding: 50px 105px;
+    box-shadow: 0 0 15px 1px grey;
 }
 
 .testimonialCont>p {
-    width: 752px;
+    width: 795px;
     /* text-align: center; */
 }
 
@@ -40,8 +42,98 @@
 }
 
 .quoteIcon {
-    left: 150px;
+    top: 195px;
+    left: 120px;
     font-size: 28px;
     color: #FF3F3A;
     position: absolute;
+}
+
+.fourDot {
+    margin: 35px auto;
+}
+
+.leftButton {
+    position: absolute;
+    left: 0;
+    top: 25%;
+    border-radius: 50%;
+    border: none;
+    padding: 15px;
+    font-size: 22px;
+    display: flex;
+    cursor: pointer;
+    transition: 0.35s;
+}
+
+.leftButton:hover {
+    color: white;
+    box-shadow: #FF3F3A 0 0 12px 1px;
+    background-color: #FF3F3A;
+}
+
+.rightButton:hover {
+    background-color: #FF3F3A;
+    color: white;
+    box-shadow: #FF3F3A 0 0 12px 1px;
+}
+
+.rightButton {
+    transition: 0.15s;
+    position: absolute;
+    display: flex;
+    right: 0;
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 50%;
+    border: none;
+    padding: 15px;
+    top: 25%;
+}
+
+.registerCourse {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 85px;
+}
+
+.RegisterList {
+    display: flex;
+    height: 82%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.RegisterList>label {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.RegisterList>label>input {
+    height: 50px;
+    outline: none;
+    font-size: 18px;
+    border: solid grey 1.9px;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.registerCourse>li:last-child>h1 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.registerCourse>li:last-child>p {
+    font-size: 46px;
+}
+.RegisterList>button{
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(#FF3F3A, #F75E05);
 }

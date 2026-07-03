@@ -11,6 +11,9 @@ import Marketing from "../../assets/img/marketing.png";
 import Gropus from "../../assets/img/Grspis.png";
 import Only from "../../assets/img/illustration (1).png";
 import Team from "../../components/Team/Team";
+import HomeSms from "../../components/HomeSms/HomeSms";
+import LatestPosts from "../../components/LatestPosts/LatestPosts";
+
 function Home() {
   const events = [
     {
@@ -47,7 +50,7 @@ function Home() {
             <h1 className="home-text">
               Enjoy studying with Createx Online Courses
             </h1>
-            <div>
+            <div className="abou-btn">
               <button className="home-btn">About us</button>
 
               <button className="explore-btn">Explore courses</button>
@@ -283,7 +286,17 @@ function Home() {
           </div>
         </div>
       </div>
+      <HomeSms/>
       <Team />
+      <LatestPosts/>
+        <div className="event-subscribe">
+        <h6>Don’t miss anything</h6>
+        <h1>Subscribe to the Createx School announcements</h1>
+        <form className="event-form">
+          <input type="text" placeholder="Your working email"/>
+          <button>Subscribe</button>
+        </form>
+      </div> 
     </section>
   );
 }

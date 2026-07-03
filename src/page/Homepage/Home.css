@@ -431,3 +431,8 @@ opacity: 1;
   font-weight: 700;
   cursor: pointer;
 }
+.abou-btn{
+  display: flex;
+  align-items: center;
+gap: 20px;
+}

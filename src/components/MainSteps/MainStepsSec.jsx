@@ -1,4 +1,3 @@
-import React from 'react'
 import "./mainsteps.css"
 import lineImg from "../../assets/icon/line.png"
 

@@ -6,7 +6,8 @@ import SpeakerImg from "../../assets/img/speaker-image.png";
 import SpeakweLogo1 from "../../assets/img/speaker-logo1.png";
 import SpeakweLogo2 from "../../assets/img/speaker-logo2.png";
 import SpeakweLogo3 from "../../assets/img/speaker-logo3.png";
-import NewsLetterImg from "../../assets/img/newsletter.png"
+import NewsLetterImg from "../../assets/img/newsletter.png";
+import IllusionImg from "../../assets/img/illusion.png";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Event() {
@@ -16,8 +17,8 @@ function Event() {
         <h6>Online lecture</h6>
         <br />
         <h1>
-          Formation of the organizational structure of the company in the face
-          of uncertainty
+          Formation of the organizational structure of the company in the face
+          of uncertainty
         </h1>
       </div>
       <div className="event-sidebar">
@@ -29,14 +30,6 @@ function Event() {
               <span>— Theme 1.</span>
               Aliquet lectus urna viverra in odio.
             </li>
-
-            <p>
-              Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar
-              aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius
-              mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur
-              faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo
-              nunc orci vitae accumsan id.
-            </p>
 
             <li>
               <span>＋ Theme 2.</span>
@@ -53,6 +46,13 @@ function Event() {
               In id dolor quis nunc, urna hendrerit pharetra.
             </li>
           </ul>
+          <p>
+            Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar
+            aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius
+            mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur
+            faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo
+            nunc orci vitae accumsan id.
+          </p>
         </div>
 
         <div className="event-sidebar_card">
@@ -140,6 +140,106 @@ function Event() {
               I agree to receive communications from Createx Online School
             </span>
           </label>
+        </div>
+      </div>
+      <div className="event-registration-wrapper">
+        <div className="event-registration-content">
+          <form className="event-registration-form">
+            <span className="event-registration-subtitle">
+              DON'T MISS THE EVENT
+            </span>
+
+            <h2 className="event-registration-title">Leave a request</h2>
+
+            <div className="event-registration-field">
+              <label htmlFor="fullName">Full Name</label>
+              <input type="text" id="fullName" placeholder="Your full name" />
+            </div>
+
+            <div className="event-registration-field">
+              <label htmlFor="emailAddress">Email</label>
+              <input
+                type="email"
+                id="emailAddress"
+                placeholder="Your working email"
+              />
+            </div>
+
+            <div className="event-registration-field">
+              <label htmlFor="phoneNumber">Phone</label>
+              <input
+                type="tel"
+                id="phoneNumber"
+                placeholder="Your phone number"
+              />
+            </div>
+
+            <button className="event-registration-btn">Join the event</button>
+
+            <p className="event-registration-note">
+              * You will receive a link to the online lecture in an email after
+              registration.
+            </p>
+          </form>
+
+          <div className="event-registration-illustration">
+            <img src={IllusionImg} alt="Leave Request" />
+          </div>
+        </div>
+      </div>
+      <div className="event-related">
+        <div className="event-related_container">
+          <h6 className="event-related_subtitle">CHECK OTHER ONLINE EVENTS</h6>
+
+          <div className="event-related_header">
+            <h1>You may be interested in</h1>
+
+            <div className="event-related_arrows">
+              <button>&larr;</button>
+              <button>&rarr;</button>
+            </div>
+          </div>
+        </div>
+        <ul className="event-cards">
+          <li className="event-card_list">
+            <h3>05 Aug </h3>
+            <span>11:00 – 14:00</span>
+            <p>
+              Formation of the organizational structure of the company in the
+              face of uncertainty.
+            </p>
+            <span>Online master-class</span>
+            <br />
+            <Link to={"/event"} className="link">
+              View more
+            </Link>
+          </li>
+          <li className="event-card_list">
+            <h3>24 Jul</h3>
+            <span>11:00 – 12:30</span>
+            <p>Building a customer service department. Best Practices.</p>
+            <span>Online lecture</span>
+            <br />
+            <Link to={"/event"} className="link">
+              View more
+            </Link>
+          </li>
+          <li className="event-card_list">
+            <h3>10 Jul</h3>
+            <span>9:00 – 14:00</span>
+            <p>
+              Find and evaluate: search and assessment tools for candidates.
+            </p>
+            <span>Online workshop</span>
+            <br />
+            <Link to={"/event"} className="link">
+              View more
+            </Link>
+          </li>
+        </ul>
+        <div className="explore-all_events">
+          <h3>Do you want more?</h3>
+          <Link to={"/events"} className="explore-link">Explore all events</Link>
         </div>
       </div>
     </section>

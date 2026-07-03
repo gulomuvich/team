@@ -16,7 +16,7 @@ function App() {
       id: 1,
       date: "05 Aug",
       time: "11:00 - 14:00",
-      title:
+      description:
         "Formation of the organizational structure of the company in the face of uncertainty.",
       category: "Online master-class",
     },
@@ -24,29 +24,30 @@ function App() {
       id: 2,
       date: "24 Jul",
       time: "11:00 - 12:30",
-      title: "Building a customer service department. Best Practices.",
+      description: "Building a customer service department. Best Practices.",
       category: "Online lecture",
     },
     {
       id: 3,
       date: "16 Jul",
       time: "10:00 - 13:00",
-      title:
+      description:
         "How to apply methods of speculative design in practice. Worldbuilding prototyping.",
       category: "Online workshop",
     },
     {
       id: 4,
       date: "10 Jul",
-      time: "09:00 - 14:00",
-      title: "Find and evaluate: search and assessment tools for candidates.",
+      time: "9:00 - 14:00",
+      description:
+        "Find and evaluate: search and assessment tools for candidates.",
       category: "Online workshop",
     },
     {
       id: 5,
       date: "27 Jun",
       time: "15:00 - 19:00",
-      title:
+      description:
         "Connection to Microsoft Excel and Google Sheets, Data Visualization in Power BI.",
       category: "Online master-class",
     },
@@ -54,7 +55,7 @@ function App() {
       id: 6,
       date: "15 Jun",
       time: "11:00 - 12:00",
-      title:
+      description:
         "Marketing or growth hacking: main differences and what business needs.",
       category: "Online lecture",
     },
@@ -62,7 +63,7 @@ function App() {
       id: 7,
       date: "02 Jul",
       time: "11:00 - 13:00",
-      title:
+      description:
         "How to brief a client and present your design to approve it from the first show.",
       category: "Online lecture",
     },
@@ -70,19 +71,18 @@ function App() {
       id: 8,
       date: "29 May",
       time: "11:00 - 12:00",
-      title: "Who is a project manager and do I want to be PM?",
+      description: "Who is a project manager and do I want to be PM?",
       category: "Online lecture",
     },
     {
       id: 9,
       date: "18 May",
       time: "10:00 - 12:00",
-      title:
+      description:
         "The company's business page as an additional tool to support the announcement of vacancies.",
       category: "Online lecture",
     },
   ];
-
   return (
     <>
       <Header />
@@ -90,11 +90,7 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/eventsTwo" element={<EventsTwo/>}/>
         <Route path="/courses" element={<Courses />} />
-<<<<<<< HEAD
-=======
-        <Route path="/events" element={<EventGrid events={events} />} />
         <Route path="/event" element={<Events />} />
->>>>>>> c79076214d09cfd36463d5053c1d06d4d11456e6
         <Route path="/blog" element={<Blog />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/login" element={<Login />} />

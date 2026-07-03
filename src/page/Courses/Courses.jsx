@@ -2,7 +2,7 @@ import AboutCourse from "../../components/AboutCourse/AboutCourse";
 import BottomLike from "../../components/bottomSection/BottomLike";
 import CourseCurator from "../../components/CourseCurator/CourseCurator";
 import CourseDiscountSec from "../../components/CourseDiscount/CourseDiscount";
-import CourseHero from "../../components/CourseHero/CourseHero";
+import CourseHero from "../../components/CourseHero/courseHero";
 import CourseProgram from "../../components/CourseProgram/CourseProgram";
 import CourseTestimonial from "../../components/CourseTestimonial/CourseTestimonial";
 import ForWhom from "../../components/forWhom/ForWhom";

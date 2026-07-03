@@ -160,7 +160,7 @@ function Home() {
             <div>
               {" "}
               <mark className="mark-text">Management</mark>
-              <h3 className="the-title">Prduct Management Fundamentals</h3>
+              <h3 className="the-title">Product Management Fundamentals</h3>
               <div className="by-text">
                 <span>$480</span> | <p>by Marvin McKinney</p>
               </div>

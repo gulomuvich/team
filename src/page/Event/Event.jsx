@@ -31,14 +31,6 @@ function Event() {
               Aliquet lectus urna viverra in odio.
             </li>
 
-            <p>
-              Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar
-              aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius
-              mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur
-              faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo
-              nunc orci vitae accumsan id.
-            </p>
-
             <li>
               <span>＋ Theme 2.</span>
               Orci commodo, viverra orci mollis ut euismod.
@@ -54,6 +46,13 @@ function Event() {
               In id dolor quis nunc, urna hendrerit pharetra.
             </li>
           </ul>
+          <p>
+            Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar
+            aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius
+            mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur
+            faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo
+            nunc orci vitae accumsan id.
+          </p>
         </div>
 
         <div className="event-sidebar_card">
@@ -209,7 +208,7 @@ function Event() {
               Formation of the organizational structure of the company in the
               face of uncertainty.
             </p>
-            <span>Onine master-class</span>
+            <span>Online master-class</span>
             <br />
             <Link to={"/event"} className="link">
               View more
@@ -219,7 +218,7 @@ function Event() {
             <h3>24 Jul</h3>
             <span>11:00 – 12:30</span>
             <p>Building a customer service department. Best Practices.</p>
-            <span>Onine lecture</span>
+            <span>Online lecture</span>
             <br />
             <Link to={"/event"} className="link">
               View more
@@ -231,7 +230,7 @@ function Event() {
             <p>
               Find and evaluate: search and assessment tools for candidates.
             </p>
-            <span>Onine workshop</span>
+            <span>Online workshop</span>
             <br />
             <Link to={"/event"} className="link">
               View more

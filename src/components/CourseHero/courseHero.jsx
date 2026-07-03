@@ -8,8 +8,6 @@ function CourseHero() {
         User Experience. Principles of Human-Centered <br />
         Design
       </h2>
-
-      laylo
     </section>
   );
 }

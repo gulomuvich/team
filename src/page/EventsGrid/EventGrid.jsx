@@ -10,7 +10,7 @@ function EventGrid({ events }) {
 
       <ul className="event-cards">
         {events.map((item) => (
-          <li className="event-card_list">
+          <li key={item.id} className="event-card_list">
             <h3>{item.date}</h3>
             <span>{item.time}</span>
             <p>{item.description}</p>

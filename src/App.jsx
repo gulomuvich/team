@@ -95,6 +95,7 @@ function App() {
         <Route path="/courses" element={<Courses />} />
         <Route path="/event" element={<Events />} />
         <Route path="/events" element={<EventGrid events={events} />} />
+        <Route path="/eventsTwo" element={<EventsTwo />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/login" element={<Login />} />

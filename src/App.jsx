@@ -6,12 +6,12 @@ import Courses from "./page/Courses/Courses";
 import EventsTwo from "./page/EventsList/EventTwo";
 import Blog from "./page/Blog/Blog";
 import Contacts from "./page/Contacts/Contacts";
-import Login from "./page/Login/Login";
-
 import Header from "./components/Header/Header";
 import Footer from "./components/footer/Foter";
 import EventGrid from "./page/EventsGrid/EventGrid";
 import Events from "./page/Event/Event";
+import SignUp from "./page/SignUp/SignUp";
+import SignIn from "./page/SignIn/SignIn";
 
 function App() {
   const   events = [
@@ -92,13 +92,18 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="/eventsTwo" element={<EventsTwo />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/event" element={<Events />} />
+        <Route path="/events" element={<EventGrid events={events} />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/event" element={<Events />} />
         <Route path="/events" element={<EventGrid events={events} />} />
         <Route path="/eventsTwo" element={<EventsTwo />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contacts" element={<Contacts />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/signin" element={<SignIn />} />
       </Routes>
 
       <Footer />

@@ -25,9 +25,11 @@ function SignIn({ close, openSignUp }) {
       setEmail("");
       setPassword("");
 
-      alert("Siz hisobingizga muvaffaqiyatli kirdingiz")
+      alert("Siz hisobingizga muvaffaqiyatli kirdingiz");
 
       navigate("/");
+    } else if (email == "" || password == "") {
+      alert("Bo'sh joylarni to'ldiring");
     } else {
       alert("Bunday foydalanuvchi topilmadi");
     }
@@ -87,7 +89,9 @@ function SignIn({ close, openSignUp }) {
               </a>
             </div>
 
-            <button className="signin-submit-button" type="submit">Sign in</button>
+            <button className="signin-submit-button" type="submit">
+              Sign in
+            </button>
           </form>
 
           <p className="signin-register-text">

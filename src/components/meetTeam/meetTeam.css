@@ -1,0 +1,43 @@
+.meetTeamSec{
+    margin: 100px auto;
+}
+.meetPersonsList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 80px;
+    gap: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.meetPersonsList>li{
+    text-align: center;
+}
+.meetPerImg{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #FFCF2D;
+}
+.meetActions{
+    position: absolute;
+    display: flex;
+    bottom: -12px;
+    transition: 0.20s;
+    filter: drop-shadow(0 0 10px black);
+    opacity: 0;
+    right: 0;
+    letter-spacing: 5px;
+}
+.meetPerImg:hover .meetActions{
+    opacity: 1;
+}
+
+.meetActions>button{
+    background: none;
+    font-size: 25px;
+    color: white;
+    border: none;
+}

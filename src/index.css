@@ -1,3 +1,10 @@
+
+:root{
+    --textColor: #1E212C;
+    --titleColor: #424551;
+    --cardForBackground: "#FFCF2D";
+    --backgroundElementLinear: #FF3F3A, #F75E05;
+}
 * {
   padding: 0;
   margin: 0;

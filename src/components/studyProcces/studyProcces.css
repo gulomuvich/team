@@ -1,0 +1,19 @@
+.studyProcces{
+    margin-top: 85px;
+}
+.StudyProccesList{
+    display: flex;
+    /* margin-top: 50px; */
+    justify-content: space-between;
+    align-items: end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.StudyProccesList>li>li:first-child{
+    margin-top: -15px;
+}
+.StudyProccesList>li>li{
+    margin-top: -10px;
+}
+.StudyProccesList>li>li>h4{
+    margin-left: 15px;
+}

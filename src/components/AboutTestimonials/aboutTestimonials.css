@@ -1,0 +1,24 @@
+.testimonials-header>span,
+.testimonials-header>h2 {
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.testimonials-header{
+    text-align: center;
+}
+
+.testimonials-header>span {
+    font-size: 22px;
+
+}
+
+.testimonials-header>h2 {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.testimonialWrapper {
+    box-shadow: 0 0 50px 2px gray;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

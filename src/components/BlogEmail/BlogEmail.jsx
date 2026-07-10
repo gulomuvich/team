@@ -1,5 +1,5 @@
 import "./BlogEmail.css";
-import NewsletterImg from "../../assets/img/illustration (4).png";
+import NewsletterImg from "../../assets/img/illustration (6).png";
 
 function BlogEmail() {
   return (

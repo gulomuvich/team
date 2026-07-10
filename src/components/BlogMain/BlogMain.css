@@ -62,3 +62,9 @@ height: 46px;
 border: 1px solid #FF3F3A;
 color: #FF3F3A;
 }
+.blog-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}

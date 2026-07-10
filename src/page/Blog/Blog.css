@@ -25,3 +25,8 @@ text-align: center;
 .blog-all{
     margin-top: 60px;
 }
+.Blog-main_search{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}

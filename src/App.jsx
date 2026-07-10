@@ -10,6 +10,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/footer/Foter";
 import EventGrid from "./page/EventsGrid/EventGrid";
 import Events from "./page/Event/Event";
+import AboutUs from "./page/About Us/AboutUs";
 
 function App() {
   const events = [
@@ -91,6 +92,7 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/eventsTwo" element={<EventsTwo/>}/>
         <Route path="/courses" element={<Courses />} />
+        <Route path="/about" element={<AboutUs />} />
         <Route path="/event" element={<Events />} />
         <Route path="/events" element={<EventGrid events={events}/>} />
         <Route path="/blog" element={<Blog />} />

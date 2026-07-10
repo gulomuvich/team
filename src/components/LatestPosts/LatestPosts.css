@@ -2,7 +2,9 @@
   width: 1200px;
   margin: 100px auto;
 }
-
+.blogTwo{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .blog-top {
   display: flex;
   justify-content: space-between;

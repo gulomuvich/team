@@ -42,7 +42,7 @@ const posts = [
 
 function LatestPosts() {
   return (
-    <section className="blog">
+    <section className="blog blogTwo">
       <div className="blog-top">
         <div>
           <p className="blog-subtitle">OUR BLOG</p>

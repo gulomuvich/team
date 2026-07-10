@@ -1,0 +1,107 @@
+.directionsList{
+    display: grid;
+    gap: 50px 20px;
+    margin-top: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.mainDirections>h1{
+    text-align: center;
+    margin-top: 15px;
+    color: var(--textColor);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mainDirections>h1{
+    font-size: 20px;
+}
+.mainDireccAbout{
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: var(--textColor);
+    font-size: 45px;
+}
+.directionsList>li{
+    display: flex;
+    flex-direction: column;
+    transition: 0.25s;
+    /* padding: 10px 50px; */
+    align-items: flex-start;
+}
+.directionsList>li:nth-child(1)>h3{
+    background-color: #03CEA4;
+    color: white;
+    font-weight: 400;
+    width: fit-content;
+    padding: 2px 10px;
+    border-radius: 8px;
+}
+.directionsList>li>button{
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.directionsList>li:nth-child(2)>h3{
+    background-color: #5A87FC;
+    color: white;
+    width: fit-content;
+    font-weight: 400;
+    padding: 2px 10px;
+    border-radius: 8px;
+}
+.directionsList>li:nth-child(3)>h3{
+    background-color: #F89828;
+    color: white;
+    font-weight: 400;
+    padding: 2px 10px;
+    width: fit-content;
+    border-radius: 8px;
+}
+.directionsList>li:nth-child(4)>h3{
+    background-color: #F52F6E;
+    color: white;
+    font-weight: 400;
+    padding: 2px 10px;
+    width: fit-content;
+    border-radius: 8px;
+}
+.directionsList>li:nth-child(5)>h3{
+    background-color: #7772F1;
+    color: white;
+    font-weight: 400;
+    padding: 2px 10px;
+    width: fit-content;
+    border-radius: 8px;
+}
+.directionsList>li:hover{
+    box-shadow: 0px 5px 10px 2px #9a9ca58b;
+    transform: translateY(-25px);
+}
+.directionsList>li>div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.directionsList>li, h3, p, button{
+    margin: 15px;
+}
+.directionsList>li>div>img{
+    width: 455px;
+}
+.directionsList>li>p{
+    color: var(--titleColor);
+}
+.directionsList>li:last-child{
+    background-color: #f4f5f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.directionsList>li:last-child>h5{
+    width: 255px;
+    font-size: 20px;
+    color: var(--titleColor);
+    text-align: center;
+}

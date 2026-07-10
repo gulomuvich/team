@@ -85,14 +85,16 @@
   position: relative;
 }
 
-.signup-password-icon {
+.signup-password-field button {
   position: absolute;
-  top: 50%;
-  right: 16px;
+  right: -80px;
+  top: 25%;
   transform: translateY(-50%);
-  color: #787a80;
-  font-size: 18px;
+  border: none;
+  background: transparent !important;
   cursor: pointer;
+  font-size: 22px;
+  color: #787a80;
 }
 
 .signup-form-options {

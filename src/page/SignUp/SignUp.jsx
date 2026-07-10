@@ -1,11 +1,6 @@
 import "./signup.css";
-import {
-  FaFacebookF,
-  FaGoogle,
-  FaTwitter,
-  FaLinkedinIn,
-  FaEye,
-} from "react-icons/fa";
+import { FaFacebookF, FaGoogle, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FiEyeOff, FiEye } from "react-icons/fi";
 import { IoCloseOutline } from "react-icons/io5";
 import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
@@ -30,16 +25,19 @@ function SignUp({ closes, openSignIn }) {
       localStorage.setItem("user", JSON.stringify(user));
 
       alert("Siz muvoffaqiyatli ro'yxatdan o'tdingiz");
-
+      
       setUserName("");
       setEmail("");
       setPassword("");
-
+      
+      closes()
       navigate("/");
     } else {
       alert("Bo'sh qolgan joylarni to'ldiring");
     }
   }
+
+  const [showPassword, setShowPassword] = useState(false);
 
   return (
     <div className="signup-modal-overlay">
@@ -86,14 +84,18 @@ function SignUp({ closes, openSignIn }) {
 
               <div className="signup-password-field">
                 <input
-                  type="password"
+                  type={showPassword ? "text" : "password"}
                   value={password}
                   placeholder="Password"
                   className="signup-form-input"
                   onChange={(event) => setPassword(event.target.value)}
                 />
-
-                <FaEye className="signup-password-icon" />
+                <button
+                  type="button"
+                  onClick={() => setShowPassword(!showPassword)}
+                >
+                  {showPassword ? <FiEyeOff /> : <FiEye />}
+                </button>
               </div>
             </div>
 

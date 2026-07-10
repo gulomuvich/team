@@ -62,6 +62,7 @@ export default function MeetTeam() {
           <li>
             <div className="meetPerImg">
               <img src={inf.rasmi} alt={inf.ismi} />
+              <div className="boxGradient"></div>
               <div className="meetActions">
                 <button>
                   <FaFacebookF />

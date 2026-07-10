@@ -1,12 +1,12 @@
 import EventBottom from "../../components/eventBottom/EventBottom";
 import OurEvents from "../../components/OurEvents/OurEvents";
-import "./EventList.css"
-function Event() {
+import "./EventList.css";
+function EventsTwo() {
   return (
     <main>
-      <OurEvents/>
-      <EventBottom/>
+      <OurEvents />
+      <EventBottom />
     </main>
-  )
+  );
 }
-export default Event;
+export default EventsTwo;

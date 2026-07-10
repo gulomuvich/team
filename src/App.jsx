@@ -14,7 +14,7 @@ import EventGrid from "./page/EventsGrid/EventGrid";
 import Events from "./page/Event/Event";
 
 function App() {
-  const events = [
+  const   events = [
     {
       id: 1,
       date: "05 Aug",

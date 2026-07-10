@@ -3,7 +3,8 @@ import "./LatestPosts.css";
 import img1 from "../../assets/img/login.png";
 import img2 from "../../assets/img/gul.png";
 import img3 from "../../assets/img/chiroq.png";
-
+import { Link } from "react-router-dom";
+import SinglePage from "../../page/SinglePage/SinglePage";
 const posts = [
   {
     id: 1,
@@ -73,10 +74,10 @@ function LatestPosts() {
 
               <p>{item.desc}</p>
 
-              <a href="#">
+              <Link to={ "/SinglePage"}>
                 {item.btn}
                 <span>→</span>
-              </a>
+              </Link>
             </div>
           </div>
         ))}

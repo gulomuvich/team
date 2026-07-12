@@ -10,7 +10,7 @@ import codyFisher from "../../assets/img/Cody Fisher.png";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 export default function MeetTeam() {
-  const meetPersons = [
+  const meetPersons = [ 
     {
       rasmi: DianneMeet,
       ismi: "Dianne Russell",

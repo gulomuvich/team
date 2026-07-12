@@ -10,7 +10,7 @@ import codyFisher from "../../assets/img/Cody Fisher.png";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 export default function MeetTeam() {
-  const meetPersons = [
+  const meetPersons = [ 
     {
       rasmi: DianneMeet,
       ismi: "Dianne Russell",
@@ -62,6 +62,7 @@ export default function MeetTeam() {
           <li>
             <div className="meetPerImg">
               <img src={inf.rasmi} alt={inf.ismi} />
+              <div className="boxGradient"></div>
               <div className="meetActions">
                 <button>
                   <FaFacebookF />
